@@ -32,10 +32,3 @@ terraform init
 terraform apply
 ```
 
-## What I learned
-
-- Designing DynamoDB partition/sort keys around real access patterns
-- Writing least-privilege IAM policies
-- Setting up Terraform remote state (S3 backend) so local and CI/CD deploys don't collide
-- Mocking AWS services in tests with moto instead of hitting real infrastructure
-- Building a full CI/CD pipeline with GitHub Actions, including test-gated auto-deploy
